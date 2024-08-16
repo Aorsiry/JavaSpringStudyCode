@@ -11,6 +11,7 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
         Student student = context.getBean(ArtStudent.class);
         //Service service = (Service) context.getBean(Service.class);
+        //
         ArtStudent.art();
     }
 }
